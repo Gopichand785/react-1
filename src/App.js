@@ -12,6 +12,8 @@ import Redmi from './product/product';
 import Counter from './product/counter';
 import Salary from './product/salary';
 import Login from './formhandling/two';
+import Registration from './formhandling/Registration';
+import Registration23 from './formhandling/Registration23';
 function App() {
   return (
     <div className="App">
@@ -27,6 +29,8 @@ function App() {
  <Counter/>
    <Salary/>
     <Login/>
+    <Registration/>
+    <Registration23/>
     </div>
   );
 }
